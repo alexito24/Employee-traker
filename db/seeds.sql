@@ -1,12 +1,12 @@
 -- seeds go here
--- DEPARTMENT SEEDS 
+-- DEPARTMENT SEEDS -----
 INSERT INTO department (name)
 VALUES ('Engineering'),
 ('Finance'),
 ('Legal'),
 ('Sales');
 
--- EMPLOYEE ROLE SEEDS 
+-- EMPLOYEE ROLE SEEDS -------
 INSERT INTO role (title, salary, department_id)
 VALUES ('Sales Lead', 150000, 4 ),
 ('Salesperson', 120000, 4),
@@ -17,13 +17,13 @@ VALUES ('Sales Lead', 150000, 4 ),
 ('Legal Team Lead', 180000, 3),
 ('Lawyer', 160000, 3);
 
--- EMPLOYEE SEEDS 
+-- EMPLOYEE SEEDS -------
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUES('Jonh', 'Shee', 1, null),
-('Mike', 'Drew', 2, 1),
-('Kevin', 'Durant', 3, 3),
-('Sarah', 'Loud', 4, null),
-('Tom', 'Hart', 4, 1),
-('Maria', 'Brown', 2, 2),
-('Ashley', 'Lopez', 1, 4),
-('Sam', 'Lee', 1, null);
+VALUES('Jonh', 'Shee', 2, 1),
+('Mike', 'Drew', null, 2),
+('Kevin', 'Durant', 7, 3),
+('Sarah', 'Loud', 8, 4),
+('Tom', 'Hart', 7, 5),
+('Maria', 'Brown', 7, 6),
+('Ashley', 'Lopez', null, 7),
+('Sam', 'Lee', null, 8);

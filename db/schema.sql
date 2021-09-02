@@ -5,13 +5,13 @@ CREATE DATABASE employees_db;
 
 USE employees_db;
 
--- DEPARTMENT TABLE 
+-- DEPARTMENT TABLE ----
 CREATE TABLE department (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(30)
  
 );
--- DEPARTMENT TABLE 
+-- ROLE TABLE ----
 CREATE TABLE role (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(30),
@@ -19,7 +19,7 @@ CREATE TABLE role (
   department_id INT,
   FOREIGN KEY (department_id) REFERENCES department(id)
 );
--- EMPLOYEE ROLE TABLE 
+-- EMPLOYEE TABLE ----
 CREATE TABLE employee (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   first_name VARCHAR(30),
