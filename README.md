@@ -21,7 +21,9 @@ download the dependencies needed to run this app. Then you want to run 'npm star
   ## Usage
 
 
-  Here is a video showing how  to use it.- [Screencastify](https://drive.google.com/file/d/1EtI1vdYXiTZ7MvHiq-W40yfSBoz65dmt/view)<br>
+  Here is a video showing how  to use it.- [Screencastify](https://drive.google.com/file/d/1Ai3_T6G8ZDvngaSnKpe3R2KogcnZos5c/view)<br>
+  ![Employee-traker gif](https://user-images.githubusercontent.com/87586398/131937396-69c9a3d3-7109-4bf2-8dfc-717a1625d58a.gif)
+
 
   ## License
 
